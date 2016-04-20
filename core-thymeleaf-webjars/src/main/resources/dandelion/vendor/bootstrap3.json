@@ -6,14 +6,14 @@
             "version": "3.3.4",
             "type": "js",
             "locations": {
-                "remote": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"
+                "webjar": "bootstrap.js"
             }
         },
         {
             "version": "3.3.4",
             "type": "css",
             "locations": {
-                "remote": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+                "webjar": "bootstrap.css"
             }
         }
     ]
