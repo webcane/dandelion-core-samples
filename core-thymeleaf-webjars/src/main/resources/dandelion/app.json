@@ -3,7 +3,7 @@
     "assets": [
 		{
 		    "locations": {
-		        "webapp": "/assets/js/app.js"
+		        "classpath": "assets/js/app.js"
 		    }
 		}
     ]
