@@ -5,33 +5,27 @@ A sample application which shows how to configure bundles with WebJars.
 
 ## Technology stack
 
- - Thymeleaf 2.1.4.RELEASE
- - Dandelion 1.1.1
- - Spring 3.2.10.RELEASE
+ - [dandelion-spring-boot-starter 1.0.1](https://github.com/webcane/dandelion-spring-boot-starter)
+ - spring-boot 1.3.3.RELEASE
+ - webjars
 
 ## Features
 		
  - Webjar locator
 
+## Building boot app
+
+ Run Maven to package the application:
+ 
+    mvn clean package 
+    
 ## Running this sample
 
-Using __Apache Tomcat__:
+Using console:
 
-    mvn tomcat7:run
+    cd target
+    java -jar core-thymeleaf-webjars-1.0.0.jar
 
-Using __Jetty__:
+Using Boot dashboard if Spring IDE in Eclipse
 
-    mvn jetty:run
-
-Using __Docker__ (Tomcat 7):
-
-    docker run -p 9090:8080 dandelion/core-tml-webjars
-
-You can then access the sample here: [http://localhost:9090/core-thymeleaf-webjars](http://localhost:9090/core-thymeleaf-webjars)
-
-## Bug/improvement
-
-Please report it using the corresponding issue tracker: [https://github.com/dandelion/dandelion-core-samples/issues](https://github.com/dandelion/dandelion-core-samples/issues)
-
-=
-The [Dandelion team](http://dandelion.github.io/team/).
+You can then access the sample here: [http://localhost:8090](http://localhost:8090)
