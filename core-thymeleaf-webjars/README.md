@@ -24,4 +24,4 @@ Using console:
 
 Using Boot dashboard if Spring IDE in Eclipse
 
-You can then access the sample here: [http://localhost:8090](http://localhost:8090)
+You can then access the sample here: [http://localhost:8090/core-tml-webjars](http://localhost:8090/core-tml-webjars)
