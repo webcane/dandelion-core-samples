@@ -9,11 +9,7 @@ A sample application which shows how to configure bundles with WebJars.
  - spring-boot 1.3.3.RELEASE
  - webjars
 
-## Features
-		
- - Webjar locator
-
-## Building boot app
+## Building the sample
 
  Run Maven to package the application:
  
